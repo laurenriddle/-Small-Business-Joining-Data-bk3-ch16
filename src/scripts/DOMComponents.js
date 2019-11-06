@@ -4,8 +4,8 @@ const DOMComponents = {
         return `
         <section>
         <h1>${element.name}</h1>
-        <p>${element.computer.computer}</p>
-        <p>${element.department.department}</p>
+        <p>Works in the ${element.department.department}.</p>
+        <p>Currently using a ${element.computer.computer}.</p>
         </section>
         `
     },
