@@ -1,0 +1,9 @@
+#display-container {
+    display: flex;
+    justify-content: space-between;
+}
+section {
+    background-color: lightblue;
+    border: 3px outset lightblue;
+    padding: 10px;
+}
